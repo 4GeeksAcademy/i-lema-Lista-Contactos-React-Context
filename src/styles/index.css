@@ -1,3 +1,24 @@
 /* 
     General Styles
 */
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  body{
+    background-color: rgb(245, 245, 245);
+    align-content: center;
+    justify-content: center;
+  }
+  #contactImg{
+    width: 150px;
+    height: 150px;
+  }
