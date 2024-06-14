@@ -11,7 +11,6 @@ const getState = ({ getStore, getActions, setStore }) => {
                         headers: {
                             "Content-Type": "application/json"
                         },
-                        body: JSON.stringify({ agenda_name: "iago" })
                     });
                     if (!response.ok) throw new Error("Failed to create agenda");
                 } catch (error) {
