@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { AgendaContact } from "./AgendaContact";
+import { AgendaContact } from "../component/AgendaContact";
 import { Context } from "../store/appContext";
 
 export const Agenda = () => {

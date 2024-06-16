@@ -6,7 +6,7 @@ import {createRoot} from 'react-dom/client'
 import "../styles/index.css";
 
 //import your own components
-import AppRouter from './AppRouter.js'
+import AppRouter from './appRouter.js'
 
 //
 const root = createRoot(document.querySelector("#app"))

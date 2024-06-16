@@ -1,11 +1,10 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import ScrollToTop from "./component/scrollToTop";
-import { Footer } from "./component/footer";
-import { Agenda } from "./views/Agenda";
-import { AgendaContact } from "./views/AgendaContact";
-import { AddNewContact } from "./views/AddNewContact";
-import { EditContact } from "./views/EditContact";
+import ScrollToTop from "./component/ScrollToTop";
+import { Footer } from "./component/Footer";
+import { Agenda } from "./views/agenda";
+import { AddNewContact } from "./views/addNewContact";
+import { EditContact } from "./views/editContact";
 import injectContext from "./store/appContext";
 
 
